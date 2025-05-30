@@ -1,2 +1,2 @@
-# Red-de-Comunicaciones-Per-
-Red de Comunicaciones Perú
+# Mi Proyecto
+Este repositorio contiene ejemplos básicos para aprender Git y GitHub.

@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fef9f9;
+}
+
+header {
+    background: linear-gradient(90deg, #f78da7, #f5a6b5);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#inicio {
+    background: #f8ecef;
+    padding: 4rem 2rem;
+}
+
+#inicio h1 {
+    font-size: 2.5rem;
+    color: #f78da7;
+}
+
+#inicio .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #f78da7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#servicios .services {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.service {
+    background: #ffffff;
+    border: 1px solid #f5a6b5;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #f78da7;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
