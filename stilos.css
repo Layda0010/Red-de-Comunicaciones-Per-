@@ -1,0 +1,155 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Configuración general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+    background-color: #d8e7f2;
+    color: #555;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #c0d4e6;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0078b0;
+}
+
+/* Estilo de la sección Inicio */
+section#inicio {
+    background: linear-gradient(135deg, #d8e7f2, #eaf3f9);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+section#inicio h1 {
+    font-size: 2.5rem;
+    color: #0078b0;
+}
+
+section#inicio p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+section#inicio .btn {
+    background-color: #0078b0;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+section#inicio .btn:hover {
+    background-color: #005f8a;
+}
+
+/* Estilo de la sección Servicios */
+section#servicios {
+    padding: 2rem;
+    background-color: #f0f8fc;
+}
+
+section#servicios h2 {
+    text-align: center;
+    color: #0078b0;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: #0078b0;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la sección Nosotros */
+section#nosotros {
+    padding: 2rem;
+    background-color: #eaf3f9;
+    text-align: center;
+}
+
+section#nosotros h2 {
+    font-size: 2rem;
+    color: #0078b0;
+    margin-bottom: 1rem;
+}
+
+section#nosotros p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #c0d4e6;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
